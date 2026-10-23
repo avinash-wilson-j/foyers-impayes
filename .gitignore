@@ -1,0 +1,13 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+*.duckdb
+data/raw/*
+data/staging/*
+data/marts/*
+!data/**/.gitkeep
+.pbi/
+localSettings.json
+cache.abf

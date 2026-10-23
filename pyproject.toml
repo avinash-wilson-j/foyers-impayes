@@ -1,0 +1,9 @@
+[project]
+name = "foyers-impayes"
+version = "0.1.0"
+description = "Projet personnel : harmonisation, pilotage Power BI et score de risque d'impayés sur données synthétiques d'un groupe de bailleurs sociaux fictif"
+requires-python = ">=3.11"
+dependencies = ["pandas", "numpy", "scikit-learn", "duckdb", "pyarrow", "matplotlib", "shap", "pytest", "jupyter"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
